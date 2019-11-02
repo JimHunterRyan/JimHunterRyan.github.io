@@ -1,0 +1,41 @@
+
+
+body {
+  background-color: #ECDB8C;
+  font-size: 35px;
+  
+  color:#126080;
+  font-family: monospace;
+  
+}
+
+
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+  color: black;
+  animation-name: colorChanger;
+  animation-direction: alternate-reverse;
+   animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+
+
+#stickyHeading{
+  display: grid;
+  border-radius: 8px 50px  8px 50px;
+  background-color: #F09629;
+  position: sticky;
+  top:0px;
+}
+
+
+@keyframes colorChanger{
+  from {color: #EE2343;
+  font-size: 40px;}
+  to {color: #F11697;
+    font-size: 60px;}
+  
+}
