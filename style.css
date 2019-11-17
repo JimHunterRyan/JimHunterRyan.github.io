@@ -1,76 +1,90 @@
-header{
-  display: flex;
-  width: 100vw;
-  text-align: center;
-  font-family: 'Playfair Display SC', serif;
-  font-size: 35px;
-  justify-content:center;
-  position: relative;
-  top: -50px;
-  background: aliceblue; 
-  color:black;
-  border-bottom: solid black;
-  padding-left:0px
+header {
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    background: aliceblue;
+    color: black;
+    border-bottom: solid black;
+    padding-left: 0px
 }
-#welcome-section{
-  text-align: center;
-  height: 100vh;
+
+#welcome-section {
+    text-align: center;
+    height: 100vh;
 }
-html{
-  background: white;
-  color: black;
+
+html {
+    background: white;
+    color: black;
 }
-#projects{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: -0px -0px 3px darkgrey;
-  padding: 0px;
-  margin: auto;
-  background-color: white;
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: -0px -0px 3px darkgrey;
+    padding: 0px;
+    margin: auto;
+    background-color: white;
 }
-.projectTile{
-  width: 70vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  margin-top: 2vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-bottom: 5vw;
+
+.projectTile {
+    width: 70vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
 }
-a{
-  text-decoration: none;
+
+a {
+    text-decoration: none;
 }
-a:visited{
-  color: grey;
+
+a:visited {
+    color: grey;
 }
+
 .textboxlink {
-  text-decoration: none;
-  text-align: center;
-  padding: 1vw;
-  font-family: 'Oswald', sans-serif;
-  color: green;
+    text-decoration: none;
+    text-align: center;
+    padding: 1vw;
+    font-family: 'Oswald', sans-serif;
+    color: green;
 }
 
 .textboxlink:hover {
-  color: OrangeRed;
+    color: OrangeRed;
 }
-#navbar{
-  position: fixed;
-  bottom: 0px;
-  width: 100vw;
-  font-size: 20px;
-  color: darkgreen;
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  height: 35px;
-  box-shadow: -0px -0px 3px darkgrey;
-  z-index: 99;
-}
-#github{
-  width:300px;
 
+#navbar {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    font-size: 20px;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 35px;
+    box-shadow: -0px -0px 3px darkgrey;
+    z-index: 99;
+}
+
+#github {
+    width: 300px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
