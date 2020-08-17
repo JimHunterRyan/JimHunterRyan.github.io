@@ -1,36 +1,42 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
 
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid black;
-  position: fixed;
-  top: 0;
-  left:0;
-  right:0;
-`;
-const Initials = styled.h1`
-  text-align: left;
-  color: lightcoral;
-  margin-left:10px;
-`;
-
-const Title = styled.h1`
-  text-align: center;
-`;
-const Menu = styled.h1`
-  color: lightskyblue;
-  margin-right: 10px;
-`;
+const useStyles = makeStyles((theme) => ({
+ intials:{
+  flexGrow: 1,
+  color: "black",
+ },
+  title: {
+    flexGrow: 1,
+    color: "white",
+  },
+}));
 
 const Header = () => {
+  const classes = useStyles();
   return (
-    <Wrapper>
-      <Initials>JR</Initials>
-      <Title>Jim Ryan | Portfolio</Title>
-      <Menu>&#9776;</Menu>
-    </Wrapper>
+    <AppBar position="fixed">
+      <Toolbar>
+        <Typography variant="h6" className={classes.intials}>
+          JR
+        </Typography>
+        <Typography   variant="h5" className={classes.title} >
+          Jim Ryan | Portfolio
+        </Typography>
+        <Button
+          variant="contained"
+          color="secondary"
+          href="https://jimryancv.s3.amazonaws.com/jimryancv.pdf"
+          target="_blank"
+        >
+          Resume
+        </Button>
+      </Toolbar>
+    </AppBar>
   );
 };
 

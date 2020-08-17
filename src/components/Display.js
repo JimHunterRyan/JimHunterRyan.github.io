@@ -1,18 +1,16 @@
 import React from "react";
-import styled from "styled-components";
-
-const Wrapper = styled.div`
-  margin-top: 100px;
-  border: 1px solid blue;
-`;
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
 
 const Display = () => {
   return (
-    <Wrapper>
-      <div>Sup</div>
-      <h1>My name is Jim</h1>
-      <h2>I am a Web devloper</h2>
-    </Wrapper>
+    <Container >
+    <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '50vh' }} >
+      Hello my name is Jim,
+      I am a web developer
+      I will put something here eventually
+    </Typography>
+  </Container>
   );
 };
 
