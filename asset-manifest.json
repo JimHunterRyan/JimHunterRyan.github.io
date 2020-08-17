@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.fac62c51.chunk.js",
-    "main.js.map": "/static/js/main.fac62c51.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.561cc563.js",
-    "runtime-main.js.map": "/static/js/runtime-main.561cc563.js.map",
-    "static/js/2.f274cf72.chunk.js": "/static/js/2.f274cf72.chunk.js",
-    "static/js/2.f274cf72.chunk.js.map": "/static/js/2.f274cf72.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.bc4738f132db44514a0d504c85bb5827.js": "/precache-manifest.bc4738f132db44514a0d504c85bb5827.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.f274cf72.chunk.js.LICENSE.txt": "/static/js/2.f274cf72.chunk.js.LICENSE.txt"
+    "main.js": "/J1M-RYAN.github.io/static/js/main.fac62c51.chunk.js",
+    "main.js.map": "/J1M-RYAN.github.io/static/js/main.fac62c51.chunk.js.map",
+    "runtime-main.js": "/J1M-RYAN.github.io/static/js/runtime-main.dd25aaea.js",
+    "runtime-main.js.map": "/J1M-RYAN.github.io/static/js/runtime-main.dd25aaea.js.map",
+    "static/js/2.f274cf72.chunk.js": "/J1M-RYAN.github.io/static/js/2.f274cf72.chunk.js",
+    "static/js/2.f274cf72.chunk.js.map": "/J1M-RYAN.github.io/static/js/2.f274cf72.chunk.js.map",
+    "index.html": "/J1M-RYAN.github.io/index.html",
+    "precache-manifest.073ab6f5b497e5f06cf4e82df7c61ba7.js": "/J1M-RYAN.github.io/precache-manifest.073ab6f5b497e5f06cf4e82df7c61ba7.js",
+    "service-worker.js": "/J1M-RYAN.github.io/service-worker.js",
+    "static/js/2.f274cf72.chunk.js.LICENSE.txt": "/J1M-RYAN.github.io/static/js/2.f274cf72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.561cc563.js",
+    "static/js/runtime-main.dd25aaea.js",
     "static/js/2.f274cf72.chunk.js",
     "static/js/main.fac62c51.chunk.js"
   ]
