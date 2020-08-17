@@ -7,8 +7,7 @@ const Display = () => {
     <Container >
     <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '50vh' }} >
       Hello my name is Jim,
-      I am a web developer
-      I will put something here eventually
+      This sections is coming soon :P
     </Typography>
   </Container>
   );
