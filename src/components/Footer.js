@@ -7,12 +7,14 @@ import Link from "@material-ui/core/Link";
 const Copyright = () => {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {"Made with " + "\u2764 by "}
-      <Link color="inherit" href="https://github.com/J1M-RYAN/J1M-RYAN.github.io" target="_blank">
-        Jim Ryan
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
+      <Link
+        color="inherit"
+        href="https://github.com/J1M-RYAN/J1M-RYAN.github.io"
+        target="_blank"
+      >
+        {"Made with " + "\u2764 by "}
+        Jim Ryan {new Date().getFullYear()} {"."}
+      </Link>
     </Typography>
   );
 };

@@ -30,7 +30,7 @@ const Header = () => {
         <Button
           variant="contained"
           color="secondary"
-          href="https://jimryancv.s3.amazonaws.com/jimryancv.pdf"
+          href="https://dtv9a8pr50g2p.cloudfront.net/jimryancv.pdf"
           target="_blank"
         >
           Resume
