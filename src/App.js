@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Display from "./components/Display";
+import Footer from "./components/Footer";
 import { Grid } from "@material-ui/core";
 import Projects from "./components/Projects";
 import Box from "@material-ui/core/Box";
@@ -30,8 +31,10 @@ const App = () => {
         <Grid item xs={0} sm={1} />
       </Grid>
       <Grid item>
-      <Box  mb={4}>
-        <Typography variant="h4" className={classes.projectsTitle}>Projects</Typography>
+        <Box mb={4}>
+          <Typography variant="h4" className={classes.projectsTitle}>
+            Projects
+          </Typography>
         </Box>
       </Grid>
       <Grid item container alignItems="stretch">
@@ -40,6 +43,11 @@ const App = () => {
           <Projects />
         </Grid>
         <Grid item xs={0} sm={1} />
+      </Grid>
+      <Grid item>
+        <Box mt={6}>
+          <Footer />
+        </Box>
       </Grid>
     </Grid>
   );
