@@ -2,7 +2,7 @@
   "name": "j1m-ryan",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://j1m-ryan.github.io/",
+  "homepage": "https://j1m-ryan.github.io",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",

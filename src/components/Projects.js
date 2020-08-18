@@ -6,7 +6,7 @@ import projectList from "../projectList";
 const Projects = () => {
   const getProjectCards = (projectObject) => {
     return (
-      <Grid item xs={12} sm={6} m={4}>
+      <Grid item xs={12} md={6}>
         <ProjectCard {...projectObject} />
       </Grid>
     );
