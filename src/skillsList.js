@@ -19,6 +19,10 @@ const skillsList = [
     backgroundColor: "#282C34",
     color: "#61DAFB",
   },{
+    label: "MongoDB",
+    backgroundColor: "#459C45",
+    color: "white",
+  },{
     label: "AWS",
     backgroundColor: "#EC912D",
     color: "white",
