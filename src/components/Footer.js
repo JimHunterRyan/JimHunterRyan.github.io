@@ -26,10 +26,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Footer = (props) => {
+const Footer = () => {
   const classes = useStyles();
-  const { description, title } = props;
-
   return (
     <footer className={classes.footer}>
       <Container maxWidth="lg">

@@ -21,7 +21,7 @@ const ProjectCard = ({ title, img, type, description, github }) => {
   const classes = useStyles();
 
   return (
-    <Card raised className={classes.fullHeightCard}>
+    <Card raised className={classes.fullHeightCard} square>
       <CardHeader
         title={title}
         action={
