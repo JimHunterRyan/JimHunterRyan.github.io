@@ -12,7 +12,7 @@ const Copyright = () => {
         href="https://github.com/J1M-RYAN/J1M-RYAN.github.io"
         target="_blank"
       >
-        {"Made with " + "\u2764 by "}
+        {"Made with \u2764 by "}
         Jim Ryan {new Date().getFullYear()} {"."}
       </Link>
     </Typography>

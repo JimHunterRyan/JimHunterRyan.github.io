@@ -11,16 +11,17 @@ import Card from "@material-ui/core/Card";
 import skillsList from "../skillsList";
 import Skill from "./Skill";
 
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
     justifyContent: "center",
+    alignContent: "space-around",
     flexWrap: "wrap",
     "& > *": {
       margin: theme.spacing(0.5),
     },
-  }, fullHeightCard: {
+  },
+  fullHeightCard: {
     height: "100%",
   },
 }));
