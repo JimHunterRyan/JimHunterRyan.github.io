@@ -6,6 +6,7 @@ import Box from "@material-ui/core/Box";
 import Chip from "@material-ui/core/Chip";
 import FaceIcon from "@material-ui/icons/Face";
 import { Grid } from "@material-ui/core";
+import Card from "@material-ui/core/Card";
 
 import skillsList from "../skillsList";
 import Skill from "./Skill";
@@ -34,7 +35,7 @@ const Skills = () => {
   };
 
   return (
-    <Paper square className={classes.fullHeightCard} >
+    <Card raised className={classes.fullHeightCard} square>
       <Typography variant="h4" component="h4" align="center">
         Skills
       </Typography>
@@ -43,7 +44,7 @@ const Skills = () => {
           {skillsList.map((s) => getSkills(s))}
         </Grid>
       </Box>
-    </Paper>
+    </Card>
   );
 };
 

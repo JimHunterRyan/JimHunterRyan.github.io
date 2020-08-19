@@ -8,6 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import { Grid } from "@material-ui/core";
+import Card from "@material-ui/core/Card";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,17 +23,17 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Profile = () => {
+const Profile = ({profileText}) => {
   const classes = useStyles();
 
   return (
-    <Paper  square className={classes.fullHeightCard}>
+    <Card raised className={classes.fullHeightCard} square>
       <Typography variant="h4" component="h4" align="center">
         Profile
       </Typography>
       <Box px={2}>
       <Typography>
-        Hey there! I am a 2nd year Computer Systems student at the University of Limerick. I love web technologies! Currently I am learning the MERN stack.
+        {profileText}
       </Typography>
       </Box>
       <Grid className={classes.root}>
@@ -47,7 +48,7 @@ const Profile = () => {
       </IconButton>
       </Grid>
 
-    </Paper>
+    </Card>
   );
 };
 
