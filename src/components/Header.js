@@ -42,7 +42,7 @@ const Header = () => {
           target="_blank"
           style={{ borderRadius: 0 }}
         >
-          Resume
+          Resum{ "\u00C9"}
         </Button>
       </Toolbar>
     </AppBar>
